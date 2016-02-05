@@ -1,0 +1,24 @@
+{
+    "name": "sitemap-php/doctrine-provider",
+    "description": "Doctrine provider for sitemap-php/SitemapGenerator.",
+    "keywords": ["sitemap", "generator", "seo", "doctrine"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kévin Gomez",
+            "email": "contact@kevingomez.fr",
+            "homepage": "http://www.kevingomez.fr/"
+        }
+    ],
+    "require": {
+        "kphoen/sitemap-generator": "~2.0@dev",
+        "doctrine/orm": "~2.3"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "~1.11"
+    },
+    "autoload": {
+        "psr-4": { "SitemapGenerator\\": "src/" }
+    }
+}
