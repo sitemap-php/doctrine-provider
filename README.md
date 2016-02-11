@@ -1,8 +1,8 @@
-Doctrine provider for [SitemapGenerator](https://github.com/sitemap-php/SitemapGenerator<Paste>)
+Doctrine provider for [SitemapGenerator](https://github.com/sitemap-php/SitemapGenerator)
 ======================================
 
 Generic provider for [sitemap-php/SitemapGenerator](https://github.com/sitemap-php/SitemapGenerator)
-allowing to use Propel entities to build sitemaps.
+allowing to use Doctrine entities to build sitemaps.
 
 Installation
 ------------
